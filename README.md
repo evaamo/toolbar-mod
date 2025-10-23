@@ -13,18 +13,18 @@ Installation is simple: unzip and drag the mod folder into your community folder
 
 This took hours of fighting Microsoft/Asobo's Javascript! 
 
-# =====================IMPORTANT=========================
+### ========IMPORTANT===============
 
-Tested only in MSFS 2024 and SU3. If it works in SU 4, please leave feedback in the comments.
+Tested in MSFS 2024 SU3. Reported to work fine in SU4.
 
 This has been tested as much as possible. However, there's TONS of room for improvement.
 
 Let me know if you hit any issues in the comments below.
 
-# =====================RECOMMENDED=====================
+### ========RECOMMENDED=============
 
 If you have many Icons in the Toolbar, you should use the The Wrapping-toolbar by luzat . It is more reliable than the scrolling behavior by Asobo's faulty Toolbar.
 
-# =====================CREDITS===================+++======
+### ========CREDITS=================
 
 Kudos to the folks at Parallel 42 for their msfs-toolbar-interop idea!!!
