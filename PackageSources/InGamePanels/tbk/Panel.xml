@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimBase.Document Type="Panel">
+  <InGamePanels.InGamePanelDefinition
+      id="PANEL_CUSTOM_PANEL"
+      Name="TBK"
+      url="html_ui/ingamepanels/tbk/panel.html"
+      resizeDirections="Both"
+      minWidth="300" minHeight="200"
+      defaultWidth="400" defaultHeight="300"
+      defaultTop="50" defaultRight="50"
+      icon="TBK"
+      buttonVisible="true">
+  </InGamePanels.InGamePanelDefinition>
+</SimBase.Document>

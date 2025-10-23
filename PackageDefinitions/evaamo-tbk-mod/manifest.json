@@ -1,0 +1,30 @@
+{
+    "dependencies": [],
+    "content_type": "MISC",
+    "title": "Toolbar Mod",
+    "manufacturer": "evaamo",
+    "creator": "evaamo",
+    "package_version": "1.0.0",
+    "minimum_game_version": "1.0.0",
+    "release_notes": {},
+    "files": [
+        {
+            "path": "InGamePanels/tbk/InGamePanels_tbk.spb"
+        },
+        {
+            "path": "html_ui/InGamePanels/tbk/Panel.html"
+        },
+        {
+            "path": "html_ui/InGamePanels/tbk/Panel.js"
+        },
+         {
+            "path": "html_ui/InGamePanels/tbk/ToolBarOverride.js"
+        },
+         {
+            "path": "html_ui/icons/toolbar/tbk.svg"
+        },
+        {
+            "path": "html_ui/InGamePanels/tbk/Panel.css"
+        }
+    ]
+}

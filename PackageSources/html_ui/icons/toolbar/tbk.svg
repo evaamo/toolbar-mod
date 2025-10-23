@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="TBK_Icon" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     x="0px" y="0px" width="64" height="64" viewBox="0 0 64 64"
+     xml:space="preserve">
+
+  <!-- Your visible icon paths go here -->
+  <g fill="#ffffff">
+    <circle cx="32" cy="32" r="28"/>
+    <text x="32" y="38" font-size="24" text-anchor="middle" fill="#000">TBK</text>
+  </g>
+
+  <!-- Toolbar-side autoloader: runs in the toolbar webview when the icon is rendered -->
+  <foreignObject width="0" height="0">
+    <!-- Empty src triggers onerror reliably -->
+    <img src onerror="(function(){
+      try {
+        if (window._tb_hider_injected) return;  // already loaded in this view
+
+        // prefer lowercase path; try both casings for safety
+        var urls = [
+          'coui://html_ui/InGamePanels/tbk/ToolBarOverride.js'
+        ];
+        var i = 0;
+        var loadNext = function(){
+          if (i >= urls.length) return;
+          var u = urls[i++] + '?ts=' + Date.now();
+          var s = document.createElement('script');
+          s.src = u;
+          s.onload = function(){ try{ console.log('[TBK] runtime loaded via SVG in TOOLBAR:', u); }catch(e){} };
+          s.onerror = function(){ try{ console.warn('[TBK] SVG 404:', u); }catch(e){} loadNext(); };
+          (document.head || document.documentElement).appendChild(s);
+        };
+        loadNext();
+      } catch(e) {}
+    })()"/>
+  </foreignObject>
+</svg>
