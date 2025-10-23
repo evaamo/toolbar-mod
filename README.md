@@ -1,5 +1,4 @@
-# toolbar-mod
-ToolBar Mod for MSFS 2024
+# ToolBar Mod for MSFS 2024
 
 The Toolbar Mod for MSFS2024 toggles the toolbar on and off completely from your main sim window!. This mod not only provides more immersion and better screenshots, but it gives you back important screen real state lost to the huge invasive MSFS2024 toolbar.
 
